@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,25 +14,48 @@ html {
 }
 
 body {
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
   font-size: 1.6rem;
 }
 
 body {
   width: 100%;
   height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleContainer h1 {
+  font-size: 5rem;
+  font-weight: 700;
 }
 
 .containerSizeInput {
   width: 100%;
   height: auto;
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.containerSizeInput label {
+  padding-right: 1rem;
 }
 
 .container {
-  width: 1500px;
-  height: 1500px;
+  width: 500px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -39,6 +63,6 @@ body {
 .pixel {
   width: 6%;
   height: 6%;
-  background-color: red;
-  border: solid 0.5rem white;
+  background-color: #f1f1f1;
+  border: solid 1px white;
 }
